@@ -1,0 +1,11 @@
+{
+  "manifest_version": 2,
+  "name": "youtube_adBlocker",
+  "version": "0.1",
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/*", "http://www.youtube.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
